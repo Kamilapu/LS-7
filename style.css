@@ -1,0 +1,44 @@
+* {
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+}
+html, body, .grid-container {
+     height: 100vh;
+}
+
+body {
+     background-color: grey;
+     color: rgb(28, 1, 56);
+     font-family: 'Courier New', Courier, monospace;
+}
+
+.grid-container {
+     display: grid;    
+     background-color: blueviolet;
+     gap: 20px;
+     grid-template-columns: 1fr;
+     grid-template-areas: 
+                              "header header header"
+     
+     
+     ;
+}
+
+.grid-item {
+     background-color: bisque;
+     padding: 20px;
+     }
+
+     .grid-item header {
+
+     }
+     .grid-item main {
+
+     }
+     .grid-item sidebar {
+
+     }
+     .grid-item footer {
+
+     }
